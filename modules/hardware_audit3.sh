@@ -8,7 +8,7 @@
 # Version      : 1.0
 # Usage        : sudo bash hardware_audit.sh [--short | --full | --menu]
 # =============================================================================
-source "$HOME/NSCS_Audit_project/config/config.sh"
+source "$HOME/Audit_project/config/config.sh"
 # =============================================================================
 # SECTION 1 : COLOR DEFINITIONS (Colorized Output)
 # =============================================================================
@@ -25,7 +25,7 @@ RESET='\033[0m'
 # =============================================================================
 # SECTION 2 : GLOBAL VARIABLES
 # =============================================================================
-source "$HOME/NSCS_Audit_project/config/config.sh"
+source "$HOME/Audit_project/config/config.sh"
 TIMESTAMP=$(date +%Y-%m-%d_%H-%M-%S)
 HOSTNAME_SYS=$(hostname)
 SHORT_REPORT="$REPORT_DIR/hardware_short_$TIMESTAMP.txt"
