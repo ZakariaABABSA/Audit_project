@@ -8,7 +8,7 @@
 # Version      : 1.0
 # Usage        : bash email_sender.sh [--short | --full | --both | --setup | --menu]
 # =============================================================================
-source "$HOME/NSCS_Audit_project/config/config.sh"
+source "$HOME/Audit_project/config/config.sh"
 # =============================================================================
 # SECTION 1 : COLOR DEFINITIONS
 # =============================================================================
@@ -28,7 +28,7 @@ RESET='\033[0m'
 RECIPIENT="@gmail.com"        # who receives the report
 SENDER="@gmail.com"          # your Gmail address
 SMTP_PASS=""
-source "$HOME/NSCS_Audit_project/config/config.sh"
+source "$HOME/Audit_project/config/config.sh"
 
 # =============================================================================
 # SECTION 3 : UTILITY FUNCTIONS
