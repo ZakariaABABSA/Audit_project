@@ -71,8 +71,8 @@ mkdir -p ~/NSCS_Audit_project/logs
 ### 1. Shared Config
 Edit `config/config.sh` and set your paths:
 ```bash
-REPORT_DIR="$HOME/NSCS_Audit_project/reports"
-LOG_DIR="$HOME/NSCS_Audit_project/logs"
+REPORT_DIR="$HOME/Audit_project/reports"
+LOG_DIR="$HOME/Audit_project/logs"
 ```
 
 ### 2. Email Config
@@ -107,23 +107,23 @@ ssh-copy-id -i ~/.ssh/id_rsa user@ip
 
 ### Main Launcher (recommended)
 ```bash
-sudo bash ~/NSCS_Audit_project/main.sh
+sudo bash ~/Audit_project/main.sh
 ```
 This opens the main menu where you can access all modules.
 
 ### Run Modules Individually
 ```bash
 # hardware audit
-sudo bash ~/NSCS_Audit_project/modules/hardware_audit.sh --menu
+sudo bash ~/Audit_project/modules/hardware_audit.sh --menu
 
 # software audit
-sudo bash ~/NSCS_Audit_project/modules/software_audit.sh --menu
+sudo bash ~/Audit_project/modules/software_audit.sh --menu
 
 # email sender
-bash ~/NSCS_Audit_project/modules/email_sender.sh --menu
+bash ~/Audit_project/modules/email_sender.sh --menu
 
 # remote monitor
-bash ~/NSCS_Audit_project/modules/remote_monitor.sh
+bash ~/Audit_project/modules/remote_monitor.sh
 ```
 
 ### Command Line Flags (no menu)
@@ -151,7 +151,7 @@ crontab -e
 
 Cron execution logs are saved to:
 ```
-~/NSCS_Audit_project/logs/cron.log
+~/Audit_project/logs/cron.log
 ```
 
 ---
@@ -160,7 +160,7 @@ Cron execution logs are saved to:
 
 Generated reports are saved to:
 ```
-~/NSCS_Audit_project/reports/
+~/Audit_project/reports/
 ```
 
 Two types of reports are generated:
