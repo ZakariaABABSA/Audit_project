@@ -24,7 +24,7 @@ RESET='\033[0m'
 # =============================================================================
 # SECTION 2 : CONFIGURATION
 # =============================================================================
-MODULES_DIR="/home/zaki/NSCS_Audit_project/modules"
+MODULES_DIR="$HOME/Audit_project/modules"
 
 # =============================================================================
 # SECTION 3 : CHECK SCRIPTS EXIST
